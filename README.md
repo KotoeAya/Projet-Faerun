@@ -82,23 +82,74 @@ src/jeu/
 ## Déroulement d'une partie
 
 ```
-╔════════════════════════════════════════════════════════╗
-║                      JEU DE FAËRUN                     ║
-╚════════════════════════════════════════════════════════╝
+===== DEBUT DE LA BATAILLE =====
 
-Longueur du plateau : 10
-Mode accumulation : non
-Mode continu : oui
+Taille du plateau (5, 10, 15) : 10
 
-╔════════════════════════════════════════════════════════╗
-║                      DÉBUT DU JEU                      ║
-╚════════════════════════════════════════════════════════╝
+=== TOUR DU JOUEUR BLEU ===
 
-[🔵🔵🔵] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [🔴🔴🔴]
-                      ... tour 4 ...
-[  ] [ ] [🔵⚔️🔴] [ ] [ ] [ ] [ ] [ ] [ ] [  ]
+ Entrainer des troupes :  
+
+1.Nain
+2. Elfe
+3. Chef Nain
+4. Chef Elfe
+5. PRET
+Choix : 1
+
+=== TOUR DU JOUEUR ROUGE ===
+
+ Entrainer des troupes :  
+
+1.Nain
+2. Elfe
+3. Chef Nain
+4. Chef Elfe
+5. PRET
+Choix : 1
+
+===== TOUR 1 =====
+
+Etat du plateau au debut du tour
+
+  |  GBleu |       |       |       |       |       |       |       |       |  GRouge |
+
+Etat du plateau a la fin du tour
+
+  |       |  GBleu |       |       |       |       |       |       |  GRouge |       |
+
+===== TOUR 5 =====
+
+Etat du plateau au debut du tour
+
+  |       |       |       |       |  GBleu |  GRouge |       |       |       |       |
+
+Le guerrier bleu rencontre le guerrier rouge
+
+Etat du plateau avant la bataille
+
+  |       |       |       |       |       |  GBleu  GRouge |       |       |       |       |
+
+
+Nain BLEU frappe Nain ROUGE !
+      -> Dégâts infligés : 9
+      -> PV restants de la cible : 91
+Nain ROUGE frappe Nain BLEU !
+      -> Dégâts infligés : 11
+      -> PV restants de la cible : 89
+  ------------------------------
+
+===== TOUR 9 =====
+
+Etat du plateau au debut du tour
+
+  |       |       |       |       |       |       |       |       |  GBleu |       |
+
+Etat du plateau a la fin du tour
+
+  |       |       |       |       |       |       |       |       |       |  GBleu |
+
+ FIN DE LA GUERRE ! VAINQUEUR : BLEU
 ```
 
 Le jeu se termine lorsqu'une des deux armées est entièrement éliminée.
-
-Projet réalisé dans le cadre du **module R2.01** — BUT Informatique 1ère année, IUT2 Grenoble.
