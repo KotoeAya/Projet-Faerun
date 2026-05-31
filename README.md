@@ -1,6 +1,6 @@
-# ⚔️ Faërun — Jeu de stratégie en Java
+# Faërun - Jeu de stratégie
 
-> Simulation d'un jeu de stratégie au tour par tour en Java. Deux armées (Bleue 🔵 et Rouge 🔴) s'affrontent sur un plateau, chacune composée de guerriers aux caractéristiques distinctes, entraînés depuis leurs châteaux respectifs.
+Simulation d'un jeu de stratégie au tour par tour en Java. Deux armées (Bleue 🔵 et Rouge 🔴) s'affrontent sur un plateau, chacune composée de guerriers aux caractéristiques distinctes, entraînés depuis leurs châteaux respectifs.
 
 ---
 
