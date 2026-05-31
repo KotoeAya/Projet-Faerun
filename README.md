@@ -1,26 +1,20 @@
 # Faërun - Jeu de stratégie
 
-Simulation d'un jeu de stratégie au tour par tour en Java. Deux armées (Bleue 🔵 et Rouge 🔴) s'affrontent sur un plateau, chacune composée de guerriers aux caractéristiques distinctes, entraînés depuis leurs châteaux respectifs.
+Simulation d'un jeu de stratégie au tour par tour en Java. Deux armées Bleu et Rouge s'affrontent sur un plateau, chacune composée de guerriers aux caractéristiques distinctes, entraînés depuis leurs châteaux respectifs.
 
----
+## Fonctionnalités
 
-## ✨ Fonctionnalités
-
-- **Deux factions** qui s'affrontent sur un plateau linéaire configurable
+- **Deux Chateau** qui s'affrontent sur un plateau linéaire configurable
 - **4 types de guerriers** avec des statistiques différentes :
-  - 🧝 **Elfe** — Force ×2 par rapport à la base
-  - 🪨 **Nain** — Dégâts reçus / 2 par rapport à la base
-  - 👑 **Chef Elfe** — Force ×4 par rapport à la base
-  - 🏰 **Chef Nain** — Dégâts reçus / 4 par rapport à la base
+  - **Elfe** — Force ×2 par rapport à la base
+  - **Nain** — Dégâts reçus / 2 par rapport à la base
+  - **Chef Elfe** — Force ×4 par rapport à la base
+  - **Chef Nain** — Dégâts reçus / 4 par rapport à la base
 - **Système de combat** — les guerriers s'affrontent case par case lors de leurs rencontres
 - **Coups divins** — Événements générés lorsqu'un guerrier attaque avec le max de dégâts possible, situation gérée via exception (`CoupDivinException`)
-- **Mode continu ou pas-à-pas** — rejoue chaque tour automatiquement ou attend une validation
-- **Mode accumulation** — les guerriers peuvent s'accumuler sur une même case avant de combattre
 - **Affichage du plateau** dans le terminal avec rendu ASCII
 
----
-
-## 🏗️ Structure du projet
+## Structure du projet
 
 ```
 src/jeu/
@@ -47,16 +41,7 @@ src/jeu/
         └── Couleur.java                # Énumération BLEU / ROUGE
 ```
 
----
-
-## 🔧 Prérequis
-
-- **Java JDK 11+**
-- IntelliJ IDEA (le projet inclut le fichier `.iml` et la config `conf/debug-logging.properties`)
-
----
-
-## 🎮 Déroulement d'une partie
+## Déroulement d'une partie
 
 ```
 ╔════════════════════════════════════════════════════════╗
@@ -77,9 +62,5 @@ Mode continu : oui
 ```
 
 Le jeu se termine lorsqu'une des deux armées est entièrement éliminée.
-
----
-
-## 👤 Auteur
 
 Projet réalisé dans le cadre du **module R2.01** — BUT Informatique 1ère année, IUT2 Grenoble.
