@@ -18,11 +18,21 @@ Contexte du projet : Réalisé dans le cadre du module R2.01 (Développement d'a
 
 ## Compétences
 
--Langage Principal : Java
+- Langage Principal : Java
 
--Architecture : Conception modulaire et découpage en packages (guerrier, plateauDeJeu, carreau)
+- Architecture : Conception modulaire et découpage en packages (guerrier, plateauDeJeu, carreau)
 
--Modélisation : Conception de diagrammes de classes UML avant implémentation
+- Modélisation : Conception de diagrammes de classes UML avant implémentation
+
+## Objectifs du Projet
+
+L'objectif principal était de concevoir un moteur de jeu autonome, capable de simuler de bout en bout un affrontement tactique équilibré entre deux factions. Les sous-objectifs incluaient :
+
+- Modéliser un écosystème de combat complet avec des règles de statistiques modifiées selon les classes d'unités (Elfes et Nains).
+
+- Gérer une boucle de jeu fluide (gestion des tours, déplacements des unités, résolution des combats).
+
+- Assurer la robustesse du code face aux comportements inattendus et aux situations critiques du jeu.
 
 ## Structure du projet
 
