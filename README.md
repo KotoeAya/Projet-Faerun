@@ -4,25 +4,25 @@ Simulation d'un jeu de stratégie au tour par tour développé en Java. Dans ce 
 
 ## Fonctionnalités
 
-**Deux Chateau** qui s'affrontent sur un plateau linéaire configurable
-**4 types de guerriers** avec des statistiques différentes :
-**Elfe** - Force ×2 par rapport à la base
-**Nain** - Dégâts reçus / 2 par rapport à la base
-**Chef Elfe** - Force ×4 par rapport à la base
-**Chef Nain** - Dégâts reçus / 4 par rapport à la base
-**Système de combat** - les guerriers s'affrontent case par case lors de leurs rencontres
-**Coups divins** - Événements générés lorsqu'un guerrier attaque avec le max de dégâts possible, situation gérée via exception (`CoupDivinException`)
-**Affichage du plateau** dans le terminal avec rendu ASCII
+-**Deux Chateau** qui s'affrontent sur un plateau linéaire configurable
+-**4 types de guerriers** avec des statistiques différentes :
+-**Elfe** - Force ×2 par rapport à la base
+-**Nain** - Dégâts reçus / 2 par rapport à la base
+-**Chef Elfe** - Force ×4 par rapport à la base
+-**Chef Nain** - Dégâts reçus / 4 par rapport à la base
+-**Système de combat** - les guerriers s'affrontent case par case lors de leurs rencontres
+-**Coups divins** - Événements générés lorsqu'un guerrier attaque avec le max de dégâts possible, situation gérée via exception (`CoupDivinException`)
+-**Affichage du plateau** dans le terminal avec rendu ASCII
 
 Contexte du projet : Réalisé dans le cadre du module R2.01 (Développement d'applications) — BUT Informatique (1ère année) à l'IUT2 de Grenoble.
 
 ## Compétences
 
-Langage Principal : Java
+-Langage Principal : Java
 
-Architecture : Conception modulaire et découpage en packages (guerrier, plateauDeJeu, carreau)
+-Architecture : Conception modulaire et découpage en packages (guerrier, plateauDeJeu, carreau)
 
-Modélisation : Conception de diagrammes de classes UML avant implémentation
+-Modélisation : Conception de diagrammes de classes UML avant implémentation
 
 ## Structure du projet
 
