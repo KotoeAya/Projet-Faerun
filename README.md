@@ -52,33 +52,6 @@ L'objectif principal était de concevoir un moteur de jeu autonome, capable de s
 - Qualité logicielle & Tests Unitaires
   - Mise en place de plans de tests avec JUnit pour valider l'intégrité des calculs de dégâts (multiplicateurs de force des Elfes, réduction de dégâts des Nains) et le comportement du plateau.
 
-## Structure du projet
-
-```
-src/jeu/
-├── Application.java                    # Point d'entrée — initialisation et boucle de jeu
-├── guerrier/
-│   ├── Guerrier.java                   # Classe abstraite de base pour tous les guerriers
-│   ├── GuerrierUtilitaire.java         # Initialisation des armées dans les châteaux
-│   ├── type/
-│   │   ├── Elf.java                    # Guerrier Elfe (force ×2)
-│   │   ├── Nain.java                   # Guerrier Nain
-│   │   ├── ChefElf.java                # Chef Elfe
-│   │   └── ChefNain.java               # Chef Nain
-│   └── miscellaneous/
-│       ├── ComparaisonGuerrierDefense.java   # Comparateur pour trier par défense
-│       └── CoupDivinException.java           # Exception pour les coups spéciaux
-└── plateauDeJeu/
-    ├── Plateau.java                    # Gestion du plateau et de la progression des guerriers
-    ├── PlateauUtilitaire.java          # Affichage et saisie des paramètres du plateau
-    ├── carreau/
-    │   ├── Carreau.java                # Une case du plateau (peut être un champ de bataille)
-    │   └── CarreauUtilitaire.java      # Logique de combat sur une case
-    └── chateau/
-        ├── Chateau.java                # Château qui entraîne et produit des guerriers
-        └── Couleur.java                # Énumération BLEU / ROUGE
-```
-
 ## Déroulement d'une partie
 
 ```
