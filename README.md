@@ -34,6 +34,26 @@ L'objectif principal était de concevoir un moteur de jeu autonome, capable de s
 
 - Assurer la robustesse du code face aux comportements inattendus et aux situations critiques du jeu.
 
+## Techniques et Savoir-faire Appris
+
+- Programmation Orientée Objet & Conception UML
+  - Héritage et Abstraction : Création d'une classe abstraite Guerrier factorisant les attributs communs, dérivée en sous-classes spécifiques (Elf, Nain) pour spécialiser les comportements.
+
+Polymorphisme : Gestion uniforme des unités sur le plateau lors des combats, indépendamment de leur type précis.
+
+Modélisation UML : Traduction des contraintes du cahier des charges en diagramme de classes (relations de composition entre le Plateau et ses Carreau, héritage des Guerriers).
+
+2. Gestion des Exceptions Métier
+Création et levée d'une exception personnalisée (CoupDivinException) pour capturer et traiter un événement de jeu spécifique (lorsqu'un guerrier inflige le maximum de dégâts possibles).
+
+3. Algorithmique & Structures de Données
+Tri Personnalisé : Implémentation de l'interface Comparator (via ComparaisonGuerrierDefense) pour ordonner les unités selon leur potentiel défensif lors des phases critiques.
+
+Structures linéaires : Gestion de la progression et des collisions sur un tableau de cases (Carreau).
+
+4. Qualité logicielle & Tests Unitaires
+Mise en place de plans de tests avec JUnit pour valider l'intégrité des calculs de dégâts (multiplicateurs de force des Elfes, réduction de dégâts des Nains) et le comportement du plateau.
+
 ## Structure du projet
 
 ```
