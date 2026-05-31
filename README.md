@@ -1,8 +1,8 @@
-## Faërun — Jeu de Stratégie Militaire
+## Faërun - Jeu de Stratégie Militaire
 
 Simulation d'un jeu de stratégie au tour par tour développé en Java. Dans ce projet, deux armées (Bleu et Rouge) s'affrontent sur un champ de bataille linéaire configurable. Chaque camp entraîne ses troupes depuis son propre château pour tenter d'annihiler les forces adverses.
 
-Contexte du projet : Réalisé dans le cadre du module R2.01 (Développement d'applications) — BUT Informatique (1ère année) à l'IUT2 de Grenoble.
+Contexte du projet : Réalisé dans le cadre du module R2.01 (Développement d'applications) - BUT Informatique (1ère année) à l'IUT2 de Grenoble.
 
 ## Fonctionnalités
 
